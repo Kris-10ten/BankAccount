@@ -26,7 +26,7 @@ public class BankAccount {
         if (account.equalsIgnoreCase("checking")) {
             checkingBalance += deposit;
         } else if (account.equalsIgnoreCase("savings")) {
-            checkingBalance += deposit;
+            savingsBalance += deposit;
         } else {
             System.out.println("Choose either your checking or savings account to deposit money into.");
         }
